@@ -1,6 +1,11 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
+import vueCountryRegionSelect from 'vue-country-region-select'
+
+Vue.use(vueCountryRegionSelect)
+
+
 
 Vue.config.productionTip = false;
 
